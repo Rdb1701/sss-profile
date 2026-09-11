@@ -1,0 +1,951 @@
+@font-face {
+  font-family: 'sssicons';
+  src:  url('./sssicons.eot?3k4sh6');
+  src:  url('./sssicons.eot?3k4sh6#iefix') format('embedded-opentype'),
+      url('./sssicons.ttf?3k4sh6') format('truetype'),
+      url('./sssicons.woff?3k4sh6') format('woff'),
+      url('./sssicons.svg?3k4sh6#sssicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sssicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-accbanks:before {
+  content: "\e900";
+}
+.ico-account:before {
+  content: "\e901";
+}
+.ico-account-clock:before {
+  content: "\e902";
+}
+.ico-account-secret:before {
+  content: "\e903";
+}
+.ico-acct:before {
+  content: "\e904";
+}
+.ico-acctbrstn:before {
+  content: "\e905";
+}
+.ico-ada:before {
+  content: "\e906";
+}
+.ico-add:before {
+  content: "\e907";
+}
+.ico-add-cir:before {
+  content: "\e908";
+}
+.ico-add-ee-rec:before {
+  content: "\e909";
+}
+.ico-add-foreign:before {
+  content: "\e90a";
+}
+.ico-add-home:before {
+  content: "\e90b";
+}
+.ico-add-mail:before {
+  content: "\e90c";
+}
+.ico-addr-account:before {
+  content: "\e90d";
+}
+.ico-address:before {
+  content: "\e90e";
+}
+.ico-addr-foreign:before {
+  content: "\e90f";
+}
+.ico-addr-home:before {
+  content: "\e910";
+}
+.ico-adminacct:before {
+  content: "\e911";
+}
+.ico-announce:before {
+  content: "\e912";
+}
+.ico-announcement:before {
+  content: "\e913";
+}
+.ico-appl-active:before {
+  content: "\e914";
+}
+.ico-applicants:before {
+  content: "\e915";
+}
+.ico-appl-tracking:before {
+  content: "\e916";
+}
+.ico-appl-withdrawn:before {
+  content: "\e917";
+}
+.ico-applyben:before {
+  content: "\e918";
+}
+.ico-appointments:before {
+  content: "\e919";
+}
+.ico-app-status:before {
+  content: "\e91a";
+}
+.ico-appt:before {
+  content: "\e91b";
+}
+.ico-arrdn:before {
+  content: "\e91c";
+}
+.ico-arrdn-cir:before {
+  content: "\e91d";
+}
+.ico-arrdn-lg:before {
+  content: "\e91e";
+}
+.ico-arr-forward:before {
+  content: "\e91f";
+}
+.ico-arrlf:before {
+  content: "\e920";
+}
+.ico-arrlf-cir:before {
+  content: "\e921";
+}
+.ico-arrlf-lg:before {
+  content: "\e922";
+}
+.ico-arr-rewind:before {
+  content: "\e923";
+}
+.ico-arrrt:before {
+  content: "\e924";
+}
+.ico-arrrt-cir:before {
+  content: "\e925";
+}
+.ico-arrrt-lg:before {
+  content: "\e926";
+}
+.ico-arrup:before {
+  content: "\e927";
+}
+.ico-arrup-cir:before {
+  content: "\e928";
+}
+.ico-arrup-lg:before {
+  content: "\e929";
+}
+.ico-attend:before {
+  content: "\e92a";
+}
+.ico-attend-cert:before {
+  content: "\e92b";
+}
+.ico-attend-lv:before {
+  content: "\e92c";
+}
+.ico-attend-lv2:before {
+  content: "\e92d";
+}
+.ico-attend-rec:before {
+  content: "\e92e";
+}
+.ico-attend-verif:before {
+  content: "\e92f";
+}
+.ico-back-to-tab:before {
+  content: "\e930";
+}
+.ico-bdate:before {
+  content: "\e931";
+}
+.ico-bendis:before {
+  content: "\ea33";
+}
+.ico-bell:before {
+  content: "\e932";
+}
+.ico-benef:before {
+  content: "\e933";
+}
+.ico-beneficiary:before {
+  content: "\e934";
+}
+.ico-benredisburse:before {
+  content: "\e935";
+}
+.ico-block:before {
+  content: "\e936";
+}
+.ico-bnkfiles:before {
+  content: "\e937";
+}
+.ico-break:before {
+  content: "\e938";
+}
+.ico-briefcase:before {
+  content: "\e939";
+}
+.ico-buscode:before {
+  content: "\e93a";
+}
+.ico-cal:before {
+  content: "\e93b";
+}
+.ico-cal-edit:before {
+  content: "\e93c";
+}
+.ico-calloan:before {
+  content: "\e93d";
+}
+.ico-cal-min:before {
+  content: "\e93e";
+}
+.ico-cal-plus:before {
+  content: "\e93f";
+}
+.ico-cal-range:before {
+  content: "\e940";
+}
+.ico-cal-today:before {
+  content: "\e941";
+}
+.ico-cell:before {
+  content: "\e942";
+}
+.ico-certify:before {
+  content: "\e943";
+}
+.ico-changepass:before {
+  content: "\e944";
+}
+.ico-chart:before {
+  content: "\e945";
+}
+.ico-check-cir:before {
+  content: "\e946";
+}
+.ico-checkdefect:before {
+  content: "\e947";
+}
+.ico-checkstat:before {
+  content: "\e948";
+}
+.ico-claimsben:before {
+  content: "\e949";
+}
+.ico-clear-all:before {
+  content: "\e94a";
+}
+.ico-clipboard-check:before {
+  content: "\e94b";
+}
+.ico-clipboard-list:before {
+  content: "\e94c";
+}
+.ico-clock:before {
+  content: "\e94d";
+}
+.ico-close:before {
+  content: "\e94e";
+}
+.ico-close-big:before {
+  content: "\e94f";
+}
+.ico-close-cir:before {
+  content: "\e950";
+}
+.ico-contactus:before {
+  content: "\e951";
+}
+.ico-contri:before {
+  content: "\e952";
+}
+.ico-contri-colllist:before {
+  content: "\e953";
+}
+.ico-contripost:before {
+  content: "\e954";
+}
+.ico-copy:before {
+  content: "\e955";
+}
+.ico-csc-reports:before {
+  content: "\e956";
+}
+.ico-cselig:before {
+  content: "\e957";
+}
+.ico-daem:before {
+  content: "\e958";
+}
+.ico-dapwin:before {
+  content: "\e959";
+}
+.ico-dashboard:before {
+  content: "\e95a";
+}
+.ico-dashboard-alt:before {
+  content: "\e95b";
+}
+.ico-ddrelig:before {
+  content: "\e95c";
+}
+.ico-deathben:before {
+  content: "\e95d";
+}
+.ico-del:before {
+  content: "\e95e";
+}
+.ico-del-forever:before {
+  content: "\e95f";
+}
+.ico-dependent:before {
+  content: "\e960";
+}
+.ico-designation:before {
+  content: "\e961";
+}
+.ico-differential:before {
+  content: "\e962";
+}
+.ico-doc:before {
+  content: "\e963";
+}
+.ico-done:before {
+  content: "\e964";
+}
+.ico-done-all:before {
+  content: "\e965";
+}
+.ico-download:before {
+  content: "\e966";
+}
+.ico-dpa:before {
+  content: "\e967";
+}
+.ico-ecmed:before {
+  content: "\e968";
+}
+.ico-education:before {
+  content: "\e969";
+}
+.ico-ee:before {
+  content: "\e96a";
+}
+.ico-elig:before {
+  content: "\e96b";
+}
+.ico-email:before {
+  content: "\e96c";
+}
+.ico-empacctstat:before {
+  content: "\e96d";
+}
+.ico-empaddsvg:before {
+  content: "\e96e";
+}
+.ico-empcount:before {
+  content: "\e96f";
+}
+.ico-emphist:before {
+  content: "\e970";
+}
+.ico-empinfo:before {
+  content: "\e971";
+}
+.ico-er:before {
+  content: "\e972";
+}
+.ico-err:before {
+  content: "\e973";
+}
+.ico-err-400:before {
+  content: "\e974";
+}
+.ico-err-401:before {
+  content: "\e975";
+}
+.ico-err-403:before {
+  content: "\e976";
+}
+.ico-err-409:before {
+  content: "\e977";
+}
+.ico-err-410:before {
+  content: "\e978";
+}
+.ico-err-412:before {
+  content: "\e979";
+}
+.ico-err-413:before {
+  content: "\e97a";
+}
+.ico-err-500:before {
+  content: "\e97b";
+}
+.ico-err-501:before {
+  content: "\e97c";
+}
+.ico-err-503:before {
+  content: "\e97d";
+}
+.ico-er-updinfo:before {
+  content: "\e97e";
+}
+.ico-eserv:before {
+  content: "\e97f";
+}
+.ico-exit-to-app:before {
+  content: "\e980";
+}
+.ico-family:before {
+  content: "\e981";
+}
+.ico-faq:before {
+  content: "\e982";
+}
+.ico-file-review:before {
+  content: "\e983";
+}
+.ico-flexifnd:before {
+  content: "\e984";
+}
+.ico-forgotpass:before {
+  content: "\e985";
+}
+.ico-fullscreen:before {
+  content: "\e986";
+}
+.ico-fullscreen-exit:before {
+  content: "\e987";
+}
+.ico-funeralben:before {
+  content: "\e988";
+}
+.ico-gencontprn:before {
+  content: "\e989";
+}
+.ico-genloanprn:before {
+  content: "\e98a";
+}
+.ico-genprn:before {
+  content: "\e98b";
+}
+.ico-help:before {
+  content: "\e98c";
+}
+.ico-hide:before {
+  content: "\e98d";
+}
+.ico-history:before {
+  content: "\e98e";
+}
+.ico-holiday:before {
+  content: "\e98f";
+}
+.ico-home:before {
+  content: "\e990";
+}
+.ico-homepage:before {
+  content: "\e991";
+}
+.ico-hosp:before {
+  content: "\e992";
+}
+.ico-hotline:before {
+  content: "\e993";
+}
+.ico-inbox:before {
+  content: "\e994";
+}
+.ico-inbox-all:before {
+  content: "\e995";
+}
+.ico-info:before {
+  content: "\e996";
+}
+.ico-inq:before {
+  content: "\e997";
+}
+.ico-inq-reports:before {
+  content: "\e998";
+}
+.ico-iprn:before {
+  content: "\e999";
+}
+.ico-key:before {
+  content: "\e99a";
+}
+.ico-leave:before {
+  content: "\e99b";
+}
+.ico-leave-monet:before {
+  content: "\e99c";
+}
+.ico-leave-monet-filed:before {
+  content: "\e99d";
+}
+.ico-link:before {
+  content: "\e99e";
+}
+.ico-lncond:before {
+  content: "\e99f";
+}
+.ico-loan-colllist:before {
+  content: "\e9a0";
+}
+.ico-loanencapp:before {
+  content: "\e9a1";
+}
+.ico-loans:before {
+  content: "\e9a2";
+}
+.ico-loansapp:before {
+  content: "\e9a3";
+}
+.ico-lock:before {
+  content: "\e9a4";
+}
+.ico-login:before {
+  content: "\e9a5";
+}
+.ico-logout:before {
+  content: "\e9a6";
+}
+.ico-logout-alt:before {
+  content: "\e9a7";
+}
+.ico-map:before {
+  content: "\e9a8";
+}
+.ico-matben:before {
+  content: "\e9a9";
+}
+.ico-matbenadj:before {
+  content: "\e9aa";
+}
+.ico-matbennot:before {
+  content: "\e9ab";
+}
+.ico-medeval:before {
+  content: "\e9ac";
+}
+.ico-memdets:before {
+  content: "\e9ad";
+}
+.ico-meminfo:before {
+  content: "\e9ae";
+}
+.ico-memstat:before {
+  content: "\e9af";
+}
+.ico-menu:before {
+  content: "\e9b0";
+}
+.ico-min:before {
+  content: "\e9b1";
+}
+.ico-min-cir:before {
+  content: "\e9b2";
+}
+.ico-misc:before {
+  content: "\e9b3";
+}
+.ico-mobile:before {
+  content: "\e9b4";
+}
+.ico-mobileappdl:before {
+  content: "\e9b5";
+}
+.ico-more-horiz:before {
+  content: "\e9b6";
+}
+.ico-more-vert:before {
+  content: "\e9b7";
+}
+.ico-mpenboost:before {
+  content: "\e9b8";
+}
+.ico-msg:before {
+  content: "\e9b9";
+}
+.ico-msg-new:before {
+  content: "\e9ba";
+}
+.ico-msg-read:before {
+  content: "\e9bb";
+}
+.ico-mverifreq:before {
+  content: "\e9bc";
+}
+.ico-my-location:before {
+  content: "\e9bd";
+}
+.ico-onboard:before {
+  content: "\e9be";
+}
+.ico-open-in-full:before {
+  content: "\e9bf";
+}
+.ico-other-info:before {
+  content: "\e9c0";
+}
+.ico-overtime:before {
+  content: "\e9c1";
+}
+.ico-payslip:before {
+  content: "\e9c2";
+}
+.ico-pen:before {
+  content: "\e9c3";
+}
+.ico-penben:before {
+  content: "\e9c4";
+}
+.ico-penloan:before {
+  content: "\e9c5";
+}
+.ico-personal:before {
+  content: "\e9c6";
+}
+.ico-pesofnd:before {
+  content: "\e9c7";
+}
+.ico-pesonet:before {
+  content: "\e9c8";
+}
+.ico-phone:before {
+  content: "\e9c9";
+}
+.ico-phys:before {
+  content: "\e9ca";
+}
+.ico-play:before {
+  content: "\e9cb";
+}
+.ico-plus:before {
+  content: "\e9cc";
+}
+.ico-plus-cir:before {
+  content: "\e9cd";
+}
+.ico-preview:before {
+  content: "\e9ce";
+}
+.ico-prninq:before {
+  content: "\e9cf";
+}
+.ico-prnpay:before {
+  content: "\e9d0";
+}
+.ico-prof-qual:before {
+  content: "\e9d1";
+}
+.ico-publication:before {
+  content: "\e9d2";
+}
+.ico-questions:before {
+  content: "\e9d3";
+}
+.ico-redirect:before {
+  content: "\e9d4";
+}
+.ico-references:before {
+  content: "\e9d5";
+}
+.ico-refresh:before {
+  content: "\e9d6";
+}
+.ico-register:before {
+  content: "\e9d7";
+}
+.ico-report:before {
+  content: "\e9d8";
+}
+.ico-reports:before {
+  content: "\e9d9";
+}
+.ico-reqrec:before {
+  content: "\e9da";
+}
+.ico-retireben:before {
+  content: "\e9db";
+}
+.ico-retiresim:before {
+  content: "\e9dc";
+}
+.ico-salary:before {
+  content: "\e9dd";
+}
+.ico-return:before {
+  content: "\e9de";
+}
+.ico-salloan:before {
+  content: "\e9df";
+}
+.ico-save:before {
+  content: "\e9e0";
+}
+.ico-savings:before {
+  content: "\e9e1";
+}
+.ico-search:before {
+  content: "\e9e2";
+}
+.ico-search-manage:before {
+  content: "\e9e3";
+}
+.ico-servbrn:before {
+  content: "\e9e4";
+}
+.ico-session:before {
+  content: "\e9e5";
+}
+.ico-session-invalid:before {
+  content: "\e9e6";
+}
+.ico-session-timeout:before {
+  content: "\e9e7";
+}
+.ico-sevmencacct:before {
+  content: "\e9e8";
+}
+.ico-shortcuts:before {
+  content: "\e9e9";
+}
+.ico-show:before {
+  content: "\e9ea";
+}
+.ico-sicben:before {
+  content: "\e9eb";
+}
+.ico-sicbenadj:before {
+  content: "\e9ec";
+}
+.ico-sicbennot:before {
+  content: "\e9ed";
+}
+.ico-sicben-reimburse:before {
+  content: "\e9ee";
+}
+.ico-sicmat:before {
+  content: "\e9ef";
+}
+.ico-simcor:before {
+  content: "\e9f0";
+}
+.ico-smclaims:before {
+  content: "\e9f1";
+}
+.ico-smencapp:before {
+  content: "\e9f2";
+}
+.ico-socialmedia:before {
+  content: "\e9f3";
+}
+.ico-specialpay:before {
+  content: "\e9f4";
+}
+.ico-spinner:before {
+  content: "\e9f5";
+}
+.ico-ssccases:before {
+  content: "\e9f6";
+}
+.ico-sssid:before {
+  content: "\e9f7";
+}
+.ico-sssid-stat:before {
+  content: "\e9f8";
+}
+.ico-statreqmaint:before {
+  content: "\e9f9";
+}
+.ico-stop:before {
+  content: "\e9fa";
+}
+.ico-support:before {
+  content: "\e9fb";
+}
+.ico-sync:before {
+  content: "\e9fc";
+}
+.ico-task-list:before {
+  content: "\e9fd";
+}
+.ico-task-table:before {
+  content: "\e9fe";
+}
+.ico-tog-off:before {
+  content: "\e9ff";
+}
+.ico-tog-on:before {
+  content: "\ea00";
+}
+.ico-totp:before {
+  content: "\ea01";
+}
+.ico-totp-setup:before {
+  content: "\ea02";
+}
+.ico-transact:before {
+  content: "\ea03";
+}
+.ico-undo:before {
+  content: "\ea04";
+}
+.ico-unemployben:before {
+  content: "\ea05";
+}
+.ico-unfold-more:before {
+  content: "\ea06";
+}
+.ico-update:before {
+  content: "\ea07";
+}
+.ico-upd-ee-rec:before {
+  content: "\ea08";
+}
+.ico-updsecq:before {
+  content: "\ea09";
+}
+.ico-upload:before {
+  content: "\ea0a";
+}
+.ico-uploadfile:before {
+  content: "\ea0b";
+}
+.ico-vacant-list:before {
+  content: "\ea0c";
+}
+.ico-volunteer:before {
+  content: "\ea0d";
+}
+.ico-volunteer2:before {
+  content: "\ea0e";
+}
+.ico-vpenboost:before {
+  content: "\ea0f";
+}
+.ico-warning:before {
+  content: "\ea10";
+}
+.ico-website:before {
+  content: "\ea11";
+}
+.ico-wisp:before {
+  content: "\ea12";
+}
+.ico-work-exp:before {
+  content: "\ea13";
+}
+.ico-zoom-in:before {
+  content: "\ea2f";
+}
+.ico-zoom-out:before {
+  content: "\ea30";
+}
+.ico-apple:before {
+  content: "\ea14";
+}
+.ico-behance:before {
+  content: "\ea15";
+}
+.ico-dribble:before {
+  content: "\ea16";
+}
+.ico-facebook:before {
+  content: "\ea17";
+}
+.ico-google:before {
+  content: "\ea18";
+}
+.ico-huawei:before {
+  content: "\ea19";
+}
+.ico-instagram:before {
+  content: "\ea1a";
+}
+.ico-linkedin:before {
+  content: "\ea1b";
+}
+.ico-pinterest:before {
+  content: "\ea1c";
+}
+.ico-reddit:before {
+  content: "\ea1d";
+}
+.ico-snapchat:before {
+  content: "\ea1e";
+}
+.ico-tiktok:before {
+  content: "\ea1f";
+}
+.ico-twitter:before {
+  content: "\ea20";
+}
+.ico-twitterx:before {
+  content: "\ea21";
+}
+.ico-whatsapp:before {
+  content: "\ea22";
+}
+.ico-youtube:before {
+  content: "\ea23";
+}
+.ico-ssslogo:before {
+  content: "\ea24";
+}
+.ico-arms-utils:before {
+  content: "\ea25";
+}
+.ico-bum-logo:before {
+  content: "\ea26";
+}
+.ico-erecruit:before {
+  content: "\ea27";
+}
+.ico-esslogo:before {
+  content: "\ea28";
+}
+.ico-hrmp-logo:before {
+  content: "\ea29";
+}
+.ico-ifms-logo:before {
+  content: "\ea2a";
+}
+.ico-scots-logo:before {
+  content: "\ea2b";
+}
+.ico-sslogotext:before {
+  content: "\ea2c";
+}
+.ico-sslogotextext:before {
+  content: "\ea2d";
+}
+.ico-talentmngt:before {
+  content: "\ea2e";
+}
+.ico-wfalogo:before {
+  content: "\ea31";
+}
+.ico-wmflogo:before {
+  content: "\ea32";
+}

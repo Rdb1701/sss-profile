@@ -1,0 +1,143 @@
+/*
+ * jQuery Minimun Password Requirements 1.1
+ * http://elationbase.com
+ * Copyright 2014, elationbase
+ * Check Minimun Password Requirements
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+*/
+#pr-box, #pr-box-uid {
+    font: 13px/16px sans-serif;
+    position: absolute; 
+    z-index:1000;
+    display:none;
+    width:300px;
+    max-width:100%;
+}
+#pr-box i, #pr-box-uid i { 
+    width: 0; 
+    height: 0; 
+    margin-left: 20px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #28628e;
+}
+#pr-box-inner, #pr-box-uid-inner {
+    margin-top: 6px;
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+#pr-box-inner p {
+    margin-bottom: 0px !important;
+}
+#pr-box p, #pr-box-uid p {
+    padding:20px;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+}
+#pr-box ul, #pr-box-uid ul {
+    padding:7px;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+}
+#pr-box ul li, #pr-box-uid ul li {
+    list-style: none;
+    padding:7px;
+}
+#pr-box ul li span, #pr-box-uid ul li span {
+    width:15px;
+    height:15px;
+    display:block;
+    float:left;
+    border-radius:100%;
+    margin-right:15px;
+}
+
+#pr-box.light,
+#pr-box-uid.light {
+    color:#2d2f31;
+}
+
+#pr-box.light p,
+#pr-box-uid.light p {
+    background-color:#23a86d;
+    color:#f1f1f1;
+}
+
+#pr-box.light ul,
+#pr-box-uid.light ul {
+    background-color:#f1f1f1;
+}
+
+#pr-box.light ul li span,
+#pr-box-uid.light ul li span {
+    background-color:#f1f1f1;
+    border:3px solid #23a86d;
+}
+
+#pr-box.light ul li span.pr-ok,
+#pr-box-uid.light ul li span.pr-ok {
+    background-color:#23a86d;
+    border:3px solid #23a86d;
+}
+
+#pr-box.dark,
+#pr-box-uid.dark {
+    color:#f1f1f1;
+}
+
+#pr-box.dark p,
+#pr-box-uid.dark p {
+    background-color:#23a86d;
+}
+
+#pr-box.dark ul,
+#pr-box-uid.dark ul {
+    background-color:#2d2f31;
+}
+
+#pr-box.dark ul li span,
+#pr-box-uid.dark ul li span {
+    background-color:#2d2f31;
+    border:3px solid #23a86d;
+}
+
+#pr-box.dark ul li span.pr-ok,
+#pr-box-uid.dark ul li span.pr-ok {
+    background-color:#23a86d;
+    border:3px solid #23a86d;
+}
+
+#pr-box.sss,
+#pr-box-uid.sss {
+    color:#28628e;
+}
+
+#pr-box.sss p,
+#pr-box-uid.sss p {
+    background-color:#28628e;
+    color: #f1f1f1;
+}
+
+#pr-box.sss ul,
+#pr-box-uid.sss ul {
+    background-color:#f1f1f1;
+}
+
+#pr-box.sss ul li span,
+#pr-box-uid.sss ul li span {
+    background-color:#f1f1f1;
+    border:3px solid #28628e;
+}
+
+#pr-box.sss ul li span.pr-ok,
+#pr-box-uid.sss ul li span.pr-ok {
+    background-color:#28628e;
+    border:3px solid #28628e;
+}
